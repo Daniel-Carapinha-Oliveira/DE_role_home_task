@@ -1,0 +1,13 @@
+name: home-task-project
+
+services:
+  app:
+    build: .
+    image: home-task-image
+    container_name: home-task-container
+    ports:
+      - "8001:8000"
+    volumes:
+      - .:/home_task
+    env_file:
+      - .env

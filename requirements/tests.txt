@@ -1,0 +1,7 @@
+-r base.txt
+
+pytest==7.4.0
+pytest-factoryboy==2.7.0
+pytest-django==4.11.1
+factory_boy==3.3.3
+Faker==37.3.0
